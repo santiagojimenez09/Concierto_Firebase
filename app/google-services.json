@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81139396523",
+    "project_id": "concierto-firebase",
+    "storage_bucket": "concierto-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81139396523:android:d00b21e276ce5513212cee",
+        "android_client_info": {
+          "package_name": "com.example.concierto_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81139396523-6dt0t82q18v4tgv17c8lo4vm7q2an8su.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVa3dGkYAAplPYcyR3BxJjyLw73fkXqJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81139396523-6dt0t82q18v4tgv17c8lo4vm7q2an8su.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
