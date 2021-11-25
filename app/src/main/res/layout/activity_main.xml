@@ -37,12 +37,14 @@
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:checked="true"
+            android:onClick="Asiento"
             android:textSize="20dp"
             android:text="palco" />
 
         <RadioButton
             android:id="@+id/rbplatea"
             android:layout_width="match_parent"
+            android:onClick="Asiento"
             android:layout_height="35dp"
             android:textSize="20dp"
             android:text="platea" />
@@ -51,6 +53,7 @@
             android:id="@+id/rbgeneral"
             android:layout_width="match_parent"
             android:layout_height="35dp"
+            android:onClick="Asiento"
             android:textSize="20dp"
             android:text="general" />
     </RadioGroup>
@@ -124,6 +127,7 @@
         <Button
             android:id="@+id/btguardar"
             android:layout_width="200dp"
+            android:onClick="Guardar"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
@@ -133,6 +137,7 @@
         <Button
             android:id="@+id/btconsultar"
             android:layout_width="200dp"
+            android:onClick="Consultar"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
@@ -149,6 +154,7 @@
             android:id="@+id/btmodificar"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:onClick="Modificar"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
             android:backgroundTint="#F49507"
@@ -158,6 +164,7 @@
             android:id="@+id/bteliminar"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:onClick="Eliminar"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
             android:backgroundTint="#BD1919"
@@ -167,6 +174,7 @@
     <Button
         android:id="@+id/btlimpiar"
         android:layout_width="200dp"
+        android:onClick="Limpiar"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="5dp"
